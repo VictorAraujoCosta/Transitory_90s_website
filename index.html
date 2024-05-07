@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>breguetes e patotas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>  
+        </div>
+    </header>
+        <h1 onclick='formatacaoatual()'> BACK TO THE 90's</h1>
+        <p onclick="formatacaoatual()"> melhores memórias de 1994</p>
+        <main>
+            <div class="fotos">
+                <div class="row">
+                    <img src="mamonas_assasinads.jpg" alt="Mamonas assasinas" onclick='formatacaoatual()'>
+                    <img src='Xou_da_Xuxa.jpg' alt="" onclick='formatacaoatual()'>
+                </div>
+                <div class="row">
+                    <img src="jogos.jpg" alt="jogos" onclick='formatacaoatual()'>
+                    <img src="silvio_santos.jpg" alt="silvio santos" onclick='formatacaoatual()'>
+                </div>
+            </div>
+        </main>
+        <script>
+            function formatacaoatual() {
+                document.body.style.backgroundColor = 'white';
+                var h1Element = document.querySelector('h1');
+                h1Element.textContent = 'Ih... os anos 90 já foi...';
+                h1Element.style.color = 'black';
+                h1Element.style.fontFamily = 'Arial';
+                h1Element.style.textDecoration = 'none';
+
+
+                var pElement = document.querySelector('p');
+                pElement.style.color = 'black';
+                pElement.style.fontFamily = 'Arial';
+                pElement.textContent = 'Welcome to geração Z!!!';
+                pElement.style.textDecoration = 'none';
+
+                var imgElements = document.querySelectorAll('.fotos img');
+                imgElements[0].src ="EUPHORIA.jpg";
+                imgElements[1].src ="TIKTOK-LOGO.jpg";
+                imgElements[2].src="energy.jpg";
+                imgElements[3].src ="x.png";
+                         
+
+            }
+
+        </script>
+</body>
+</html>

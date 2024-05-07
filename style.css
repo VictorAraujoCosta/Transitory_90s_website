@@ -1,0 +1,38 @@
+body{
+    background-color: lightgray;
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+}
+
+img{
+    height: 12rem;
+    width: 12rem;
+    padding: 0.5rem;
+    cursor: pointer;
+}
+
+.fotos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+h1{
+    text-align: center;
+    color: blue;
+    text-decoration: underline;
+    cursor: pointer;
+
+}
+
+p{
+    text-align: center;
+    color: blue;
+    text-decoration: underline;
+    cursor: pointer;
+}
